@@ -1,0 +1,47 @@
+<h1>Details of Aunt</h1>
+
+<p>What we know of miss.....</p>
+
+<form action="/cool_url" method="get">
+  <input type="text" name="get_aunt_name">
+  <input type="submit" value="I want to know!">
+</form>
+
+
+<p>Maybe we add details to miss..</p>
+<div>
+<form action="/cool_url" method="post">
+  <input type="text" name="post_aunt_name">
+</div>
+
+<br>
+<!-- <form name="comments_section" action="/cool_url" method="post"> -->
+<textarea cols="40" rows="5" name="description">
+This is the text area
+</textarea>
+<br>
+
+<br>
+<input type="radio" name="favorite_animals" value="Dog">Dog<br>
+<input type="radio" name="favorite_animals" value="Cat">Cat<br>
+<input type="radio" name="favorite_animals" value="Doplhin">Dolphin<br>
+<br>
+
+<br>
+<input type="checkbox" name="favorite_food_1" value="Sushi">Sushi<br>
+<input type="checkbox" name="favorite_food_2" value="Western">Western<br>
+<input type="checkbox" name="favorite_food_3" value="Korean">Korean<br>
+<br>
+
+<br>
+<select name="death_bed">
+<option value="Cremation">Cremation</option>
+<option value="Burial">Burial</option>
+<option value="Overfed_on_doughnuts">Overfed on Doughtnuts</option>
+</select>
+<input type="submit" value="POST!">
+<br>
+</form>
+
+<p>URL parameters:</p>
+<%= params %>
